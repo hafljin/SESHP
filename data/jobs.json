@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": 1,
+    "title": "SREリーダー募集 (GCP)",
+    "type": "Leader",
+    "salary": "月額 90万円〜120万円",
+    "skills": ["Google Cloud", "Kubernetes", "Terraform", "CI/CD"],
+    "conditions": "フルリモート / 週5日",
+    "description": "大規模サービスの信頼性向上をリードするSREリーダーを募集。GCP環境での設計、構築、運用をお任せします。",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "クラウドエンジニア (AWS)",
+    "type": "Member",
+    "salary": "月額 70万円〜90万円",
+    "skills": ["AWS", "Python", "Docker", "IaC"],
+    "conditions": "週3リモート / 週5日",
+    "description": "金融系システムのAWS移行プロジェクトに参画。インフラ設計・構築・運用を担当していただきます。",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "アジャイル開発エンジニア",
+    "type": "Member",
+    "salary": "月額 65万円〜85万円",
+    "skills": ["React", "Node.js", "TypeScript", "Scrum"],
+    "conditions": "フルリモート / 週5日",
+    "description": "新規Webサービスの開発チームに参加し、スクラムマスターと共にアジャイル開発を推進します。",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "インフラエンジニアリーダー (Azure)",
+    "type": "Leader",
+    "salary": "月額 95万円〜130万円",
+    "skills": ["Azure", "Ansible", "PowerShell", "Security"],
+    "conditions": "週4リモート / 週5日",
+    "description": "大手製造業のAzureインフラ基盤の刷新プロジェクトを牽引。チームマネジメントと技術選定が主な業務です。",
+    "featured": false
+  }
+]
