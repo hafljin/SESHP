@@ -34,12 +34,12 @@ const HomePage: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-6xl font-extrabold text-neutral-900 leading-tight">
-                クラウド・SRE領域に強い
-                <br />
-                <span className="text-primary">SESパートナー</span>
+                  クラウド・ITインフラ・開発領域に強い
+                  <br />
+                  <span className="text-primary">SESパートナー</span>
               </h1>
               <p className="mt-6 max-w-xl mx-auto md:mx-0 text-lg md:text-xl text-neutral-700">
-                Donrichy株式会社は、高い技術力でお客様のビジネスを加速させるITプロフェッショナル集団です。
+                  Donrichy株式会社は、クラウド、ITインフラ、アジャイル開発など幅広い技術領域でお客様のビジネス成長を支援するITプロフェッショナル集団です。
               </p>
               <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                 <Button size="lg" onClick={() => navigate('/jobs')}>案件を探す</Button>
