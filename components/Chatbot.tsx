@@ -224,7 +224,7 @@ const Chatbot: React.FC = () => {
         <button
           ref={openButtonRef}
           onClick={toggleChat}
-          className="bg-primary text-white p-3 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
+          className="bg-primary text-white p-3 rounded-full shadow-lg hover:bg-[#0A3D4A] focus:outline-none focus:ring-4 focus:ring-blue-300"
           aria-label="チャットを開く"
         >
           <ChatIcon />
@@ -271,7 +271,7 @@ const Chatbot: React.FC = () => {
                         <button
                             key={`${opt.text}-${index}`}
                             onClick={() => handleOptionClick(opt)}
-                            className={`w-full text-left p-2 rounded-lg border-2 transition-colors text-primary border-primary hover:bg-primary/10 ${opt.isLink ? 'font-bold' : ''}`}
+                            className={`w-full text-left p-2 rounded-xl border-2 transition-colors text-primary border-primary hover:bg-primary/10 ${opt.isLink ? 'font-bold' : ''}`}
                         >
                             {opt.text}
                         </button>
