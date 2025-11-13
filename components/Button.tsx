@@ -9,7 +9,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const Button: React.FC<ButtonProps> = ({ children, variant = 'primary', size = 'md', className = '', ...props }) => {
-  const baseStyles = 'font-bold rounded-lg transition-all duration-300 focus:outline-none focus:ring-4 transform active:scale-95 shadow-md';
+  const baseStyles = 'font-bold rounded-xl transition-all duration-300 focus:outline-none focus:ring-4 transform active:scale-95 shadow-md hover:shadow-lg';
   
   const variantStyles = {
     primary: 'bg-primary text-white hover:bg-blue-700 focus:ring-blue-300',

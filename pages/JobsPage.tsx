@@ -52,7 +52,7 @@ const JobsPage: React.FC = () => {
           <button
             key={type}
             onClick={() => setFilter(type)}
-            className={`px-4 py-2 text-lg font-semibold rounded-lg transition-colors ${
+            className={`px-4 py-2 text-lg font-semibold rounded-xl transition-colors ${
               filter === type
                 ? 'bg-primary text-neutral-50'
                 : 'bg-neutral-300 text-neutral-700 hover:bg-primary/20'
